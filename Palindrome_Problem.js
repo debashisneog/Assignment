@@ -1,9 +1,14 @@
-let name="Rahul";
+let nam="Rahul";
 let sum="";
-for(let i=name.length; i>=0; i--){
-	sum=sum+name[i];
+for(let i=nam.length-1; i>=0; i--)
+{
+	sum=sum+nam[i];
 }
-if(sum != name){
-	console.log("Palindrome");
-}else{
-	console.log("Not Palindrome");
+if(sum == nam)
+{
+console.log("Palindrome");
+}
+else
+{
+console.log("Not Palindrome");
+}
